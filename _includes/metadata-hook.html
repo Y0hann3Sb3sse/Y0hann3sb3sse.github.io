@@ -1,0 +1,16 @@
+<!-- À placer dans _includes/metadata-hook.html -->
+<!-- À la première arrivée sur le site (session du navigateur), si la page d'accueil est ouverte, on envoie vers About. -->
+<script>
+  (function () {
+    try {
+      var key = 'portfolio-intro-seen';
+      var seen = sessionStorage.getItem(key);
+      sessionStorage.setItem(key, '1');
+      {% if page.layout == 'home' %}
+      if (!seen) {
+        window.location.replace('{{ "/about/" | relative_url }}');
+      }
+      {% endif %}
+    } catch (e) {}
+  })();
+</script>
