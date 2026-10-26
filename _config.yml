@@ -41,7 +41,7 @@ social:
     # https://github.com/username # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    https://tg.linkedin.com/in/yohannes-ephra%C3%AFmuel-andr%C3%A9-besse-aa6195248
+    - https://tg.linkedin.com/in/yohannes-ephra%C3%AFmuel-andr%C3%A9-besse-aa6195248
 
 # Site Verification Settings
 webmaster_verifications:
@@ -101,7 +101,7 @@ avatar: https://avatars.githubusercontent.com/u/325609621?s=400&u=ab84cece906d72
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: /assets/img/preview.png
+social_preview_image: (/assets/img/preview.png)
 
 # boolean type, the global switch for TOC in posts.
 toc: true
